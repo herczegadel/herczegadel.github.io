@@ -1,0 +1,95 @@
+body{ margin: 20px;
+
+background-image: url(https://live.staticflickr.com/8542/8616812230_36c19cfa34_b.jpg); }
+
+h1 {
+  margin: 5px;
+  color: #d9d9d9;
+  background-color: #e6ccff opacity:50%;
+  letter-spacing: 10px;
+  text-align: center;
+
+  display: inline-block;
+  border-radius: 5px;
+  
+  border-style: solid; border-width: 2px;
+  font-family: Helvetica;
+}
+h2 {
+  text-decoration: underline;
+  color: white;
+}
+p {
+  margin-left: 24px;
+
+  display: inline-block;
+
+  margin-right: 24px;
+  line-height: 150%;
+  font-family: Copperplate;
+}
+
+img {
+  margin: 12px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  font-family: "Copperplate", sans-serif;
+}
+nav ul li a {
+  color: white;
+  padding: 14px 16px;
+  display: block;
+}
+
+body {
+  font-family: "Copperplate", sans-serif;
+}
+li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#hobbykepek img {
+  width: calc(90vw / 6);
+  height: calc(90vw / 6);
+  margin: 0px 5px 0 0;
+  display: block;
+  object-fit: cover;
+}
+#hobbykepek {
+  justify-content: center;
+
+  border-radius: 4px;
+  padding: 5px;
+}
+#hobby1 img {
+  margin: 0 5px;
+}
+#felfele {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 3px grey;
+  border-radius: 100px;
+  font-family: "Muli", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+
+div p {
+  color:white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
